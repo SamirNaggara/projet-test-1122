@@ -1,0 +1,262 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v29-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v29-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+  /* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v29-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/roboto-v29-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/roboto-v29-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/roboto-v29-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/roboto-v29-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/roboto-v29-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+  }
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    color: #4b4b4b;
+}
+
+.container1{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 576px){
+    .container1{
+        width: 500px;}
+}
+
+@media (min-width: 768px){
+    .container1{
+        width: 700px;}
+}
+
+@media (min-width: 992px){
+    .container1{
+        width: 900px;}
+}
+
+@media (min-width: 1200px){
+    .container1{
+        width: 1100px;}
+}
+
+@media (min-width: 1400px){
+    .container1{
+        width: 1300px;}
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.yellow{
+    color: #ea9f05;
+}
+
+.barre{
+    text-decoration: line-through;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+/********************** header *******************************/
+#header{
+    background: url(../images/background.jpg);
+}
+
+#header .container1{
+    padding: 45px 0 0;
+}
+
+.logo p{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.logo, .menu1{
+    width: 100%;
+}
+
+.menu1{
+    text-align: end;
+    padding: 15px 0 30px;
+}
+
+.menu1 p{
+    margin-bottom: 35px;
+}
+
+.menu1 li{
+    margin: 0 7px;
+    font-weight: bold;
+}
+
+@media (max-width: 318px){
+    .logo img{width: 100%;}
+}
+@media (min-width: 768px){
+    .logo, .menu1{
+        width: 50%;
+    }
+    .menu1 .container2{
+        justify-content: end;
+    }    
+    .logo p{
+        text-align: start;
+    }
+    .logo img{
+        margin: 0;
+    }
+}
+
+/********************** main ***********************************/
+#main{
+    background:#101419;
+}
+
+#main .container1{
+    background: #f3f3f3;
+}
+
+.ban img{
+    width: 100%;
+}
+
+.relative{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 52px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bas{
+    justify-content: space-between;
+    position: relative;
+    bottom: 45px;
+}
+
+.bouton{
+    background: #282828;
+    color: #fff;
+    padding: 15px 20px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.prix{
+    font-size: 21px;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+
+.gant{
+    margin-bottom: -28px;
+    padding: 15px;
+}
+
+.marge-bas{
+    height: 28px;
+}
+
+@media (max-width: 992px){
+    .gant img{width: 100%;}
+}
+
+@media (min-width: 768px){
+    .produits .gant{
+        width: 50%;
+    }
+    .bas{
+        width: 366px;
+    }
+}
+
+/*************************** footer ********************************/
+#footer{
+    background:#373737;
+}
+
+.contact li{
+    margin: 0 7px;
+}
+
+.contact a{
+    color: #4b4b4b;
+}
+
+#footer p{
+    text-align: center;
+    margin: 17;
+}
+
+.contact .container2{
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px;
+    position: relative;
+    bottom: 24px;
+}
+
+.menu2 .container2{
+    margin: 20px 0 15px;
+    width: 50%;
+}
+
+.menu2 p{
+    width: 100%;
+    color:#fff;
+    line-height: 25px;
+}
+
+.copyright{
+    margin: 0 auto;
+    color: grey;
+    font-size: 12px;
+}
+
+@media (min-width: 768px){
+    .menu2 .container2{
+        width: 25%;
+    }
+}
